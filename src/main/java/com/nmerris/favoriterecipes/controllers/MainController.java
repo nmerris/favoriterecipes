@@ -13,4 +13,10 @@ public class MainController {
     }
 
 
+    @GetMapping(value = {"/crabcakes"})
+    public String crabcakesPageGet() {
+        return "crabcakes";
+    }
+
+
 }
