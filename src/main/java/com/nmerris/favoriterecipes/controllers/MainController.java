@@ -18,5 +18,9 @@ public class MainController {
         return "crabcakes";
     }
 
+    @GetMapping(value = {"/gingerale"})
+    public String gingeralePageGet() {
+        return "gingerale";
+    }
 
 }

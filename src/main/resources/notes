@@ -1,0 +1,10 @@
+TO USE A NICE FREE TEMPLATE AND USE IT TO DEVELOP LOCALLY
+1. find one from, perhaps startbootstrap.com, download it
+2. extract to desktop or wherever
+3. move all the extracted files to ..main/resources/templates in intellij (must be templates)
+4. (NOTE: you only want to extracted files to be moved, not their containing folder)
+5. while you are at it, take THESE folders: css, img, js, vendor.. and make another copy of only these folders in ../resources/static/
+6. at this point you should be able to test locally (at least the HTML stuff, links won't work of course, unless they are normal links that go to established web pages, but none of your Spring stuff will work) and also on localhost
+7. !!! REMOVE EVERYTHING EXCEPT YOUR OWN HTML FILES FROM ../templates when you are done, because it is unnecessary for actual production use
+
+NOTE: it is really nice to use neko html to take care of all the unclosed html tags that are likely present in the free template you downloaded
