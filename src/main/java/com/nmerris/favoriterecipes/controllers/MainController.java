@@ -23,4 +23,10 @@ public class MainController {
         return "gingerale";
     }
 
+    @GetMapping(value = {"/cornbread"})
+    public String cornbreadPageGet() {
+        return "cornbread";
+    }
+
+
 }

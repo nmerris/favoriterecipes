@@ -7,5 +7,7 @@ body {
 }
 
 .recipe-container {
-  background-image: url("https://c1.staticflickr.com/8/7267/7518206320_b8240e129f_b.jpg");
+  /*background-image: url("https://c1.staticflickr.com/8/7267/7518206320_b8240e129f_b.jpg");*/
+  max-width: 100%;
+  max-height: 100%;
 }
